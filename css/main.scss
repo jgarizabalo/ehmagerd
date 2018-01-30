@@ -5,11 +5,40 @@
           transform: translate($v,$h);
 }
 
-
 * {
 	box-sizing: border-box;
-	font-family: Roboto !important;
+	font-family: Roboto;
 	font-weight: 300;
+}
+
+.glyphicon {
+  position: relative;
+  top: 1px;
+  display: inline-block;
+  font-family: 'Glyphicons Halflings';
+  font-style: normal;
+  font-weight: normal;
+  line-height: 1;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale; 
+}
+.glyphicon-search:before {
+  content: "\e003"; 
+  }
+.glyphicon-ok-sign:before {
+  content: "\e084"; 
+}
+
+.pull-right {
+	float: right;
+}
+.pull-left {
+	float: left;
+}
+.btn-light {
+	background: #FFF;
+	border: 1px solid #ccc;
+	font-weight: 300; 
 }
 .spacer {
 	background-color: #CCCCCC;
@@ -190,44 +219,40 @@ main {
 		text-align: center;
 		margin-bottom: 10px;
 	}
-	.ok-unchecked {
+	.unchecked {
 		display: block;
 		border-radius: 100%;
 		position: relative; 
 		left: 50%;
 		height: 30px;
+		text-align: center;
+		font-size: 28px;
 		width: 30px;
-		background-color: #E1E2E1;
+		color: #E1E2E1;
 		@include translate (-50%,0%);
-		> span {
-			font-family: 'Glyphicons Halflings' !important;
-			color: white;
-			position: absolute;
-			top: 50%;
-			left: 50%;
-			@include translate(-50%,-50%);
-		}
-	} 
-	.ok-checked {
-		display: block;
-		border-radius: 100%;
-		position: relative; 
-		left: 50%;
-		height: 30px;
-		width: 30px;
-		background-color: #09A944;
-		@include translate (-50%,0%);
-		> span {
-			font-family: 'Glyphicons Halflings' !important;
-			color: white;
-			position: absolute;
-			top: 50%;
-			left: 50%;
-			@include translate(-50%,-50%);
-		}
 	}
+	.checked {
+		display: block;
+		border-radius: 100%;
+		position: relative; 
+		left: 50%;
+		height: 30px;
+		text-align: center;
+		font-size: 28px;
+		width: 30px;
+		color: #09A944;
+		@include translate (-50%,0%);
+	} 
 }
 .item-wrapper:hover {
 	border-radius: 5px;
 	box-shadow: 2px 3px 10px rgba(12,143,60,0.33);
 }
+
+
+
+
+@font-face {
+  font-family: 'Glyphicons Halflings';
+  src: url("../fonts/glyphicons-halflings-regular.eot");
+  src: url("../fonts/glyphicons-halflings-regular.eot?#iefix") format("embedded-opentype"), url("../fonts/glyphicons-halflings-regular.woff2") format("woff2"), url("../fonts/glyphicons-halflings-regular.woff") format("woff"), url("../fonts/glyphicons-halflings-regular.ttf") format("truetype"), url("../fonts/glyphicons-halflings-regular.svg#glyphicons_halflingsregular") format("svg"); }
