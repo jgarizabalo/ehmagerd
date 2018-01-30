@@ -10,6 +10,7 @@
 	font-family: Roboto;
 	font-weight: 300;
 }
+
 body {
 	background: #F4F4F4;
 }
@@ -149,7 +150,7 @@ main {
 	padding-top: 50px;
 }
 .catalog {
-	padding-top: 50px;
+	padding: 50px 0px 25px;
 	background: white;
 	min-height: 20px;
 	border-right: 1px solid #D7D7D7;
@@ -279,7 +280,7 @@ main {
 	h2 {
 		color: #737373;
 		font-size: 60px;
-		line-height: 50px;
+		line-height: 50px; 
 	}
 	.cart-check {
 		color: #09A944;
@@ -288,7 +289,39 @@ main {
 		top: 70%;
 	}
 }
-
+.boxed-view {
+	border-bottom: 0px;
+	padding: 10px 15px 20px 15px;
+	a {
+		text-align: left;
+		font-size: 11px;
+		display: inline-block;
+	}
+	.glyphicon {
+		font-size: 15px;
+		display: inline-block;
+		text-align: right;
+		left: 0;
+		transform: translate(0,0);
+		top: 10px;
+	}
+	img {
+		margin: 0px 0px 15px;
+	}
+	h4 {
+		font-size: 16px;
+		margin-bottom: 15px;
+	}
+	h5 {
+		font-size: 13px;
+		display: inline-block;
+		margin: 0px 0px 15px;
+	}
+	p {
+		font-size: 13px;
+		margin-bottom: 15px;
+	}
+}
 
 @font-face {
   font-family: 'Glyphicons Halflings';

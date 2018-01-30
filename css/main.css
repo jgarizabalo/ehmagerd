@@ -135,7 +135,7 @@ main {
   padding-top: 50px; }
 
 .catalog {
-  padding-top: 50px;
+  padding: 50px 0px 25px;
   background: white;
   min-height: 20px;
   border-right: 1px solid #D7D7D7;
@@ -260,6 +260,33 @@ main {
     position: absolute;
     right: 10px;
     top: 70%; }
+
+.boxed-view {
+  border-bottom: 0px;
+  padding: 10px 15px 20px 15px; }
+  .boxed-view a {
+    text-align: left;
+    font-size: 11px;
+    display: inline-block; }
+  .boxed-view .glyphicon {
+    font-size: 15px;
+    display: inline-block;
+    text-align: right;
+    left: 0;
+    transform: translate(0, 0);
+    top: 10px; }
+  .boxed-view img {
+    margin: 0px 0px 15px; }
+  .boxed-view h4 {
+    font-size: 16px;
+    margin-bottom: 15px; }
+  .boxed-view h5 {
+    font-size: 13px;
+    display: inline-block;
+    margin: 0px 0px 15px; }
+  .boxed-view p {
+    font-size: 13px;
+    margin-bottom: 15px; }
 
 @font-face {
   font-family: 'Glyphicons Halflings';
