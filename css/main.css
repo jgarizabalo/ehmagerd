@@ -133,6 +133,8 @@ main {
 .product-line {
   min-height: 20px;
   padding-top: 50px; }
+  .product-line h4 {
+    font-size: 18px; }
 
 .catalog {
   padding: 50px 0px 25px;
