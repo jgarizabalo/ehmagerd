@@ -326,6 +326,24 @@ main {
 	}
 }
 
+.product-info {
+	h2 {
+		font-size: 17px;
+		color: #9A9A9B;
+		font-weight: 300;
+	}
+	label {
+		color: #424249;
+		font-weight: 300;
+		margin-right: 30px;
+	}
+}
+.product-gallery {
+	.col-12 {
+	margin-bottom: 20px;
+	}
+}
+
 @font-face {
   font-family: 'Glyphicons Halflings';
   src: url("../fonts/glyphicons-halflings-regular.eot");
